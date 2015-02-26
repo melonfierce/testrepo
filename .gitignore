@@ -1,0 +1,5 @@
+target/*
+out/*
+SpringMavenTest.iml
+.idea/workspace.xml
+.idea/tasks.xml
