@@ -22,7 +22,7 @@ public class HomeController {
 
     @RequestMapping(value="/home.html", method = {RequestMethod.GET, RequestMethod.HEAD})
     public String homePage(Model m) {
-        String name = "Taylor";
+        String name = "Taylor Karandisevsky";
         m.addAttribute("name", name);
         return "home";
     }
